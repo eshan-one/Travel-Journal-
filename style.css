@@ -20,7 +20,9 @@ hr{
 
 
 .nav{
-     display: flex;
+    width: 100%;
+    min-width: 34.37rem;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F55A5A;
@@ -156,17 +158,6 @@ hr{
     font-size: 1.2rem;
   }
 }
-
-/* Reset and Global Styles */
-
-
-/* Navbar Styles */
-
-
-/* Other Styles */
-
-/* Media Queries */
-
 
 
 @media (min-width: 768px) {
