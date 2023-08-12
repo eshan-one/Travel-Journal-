@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+}
+
+hr{
+    width: 29.875rem;
+    background: #F5F5F5;;
+    margin: 0 auto;
+}
+
+
+
+.nav{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    color: #fff;
+    padding: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.nav--logo{
+    margin-right: 0.70em;
+}
+
+.nav--title{
+    font-size: 0.75rem;
+    margin: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.90381rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.06781rem;
+}
+
+.travel--header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.map--marker{
+    margin-top: 0;
+}
+.country{
+    color: #2B283A;
+    font-size: 0.64rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.10881rem;
+    margin-left: 0.45em;
+}
+
+.navigator{
+    margin-left: 0.65rem;
+    color: #918E9B;
+    font-size: 0.64rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.navigator:hover {
+  color: #F55A5A; /* Change color on hover */
+}
+
+.navigator:active {
+  color: #4CAF50; /* Change color when clicked */
+}
+
+
+
+.travel--section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25em 1em;
+    margin: 1em;
+    
+}
+
+.travel--img--container{
+    width: 7.8125rem;
+    height: 10.5rem;
+    flex-shrink: 0;
+    border: 1px black;
+    background-color: brown;
+    border-radius: 0.3125rem;
+   
+}
+
+.travel--img{
+     width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.3125rem;
+}
+
+.travel--info{
+    font-size: 0.75rem;
+    width: 100%;
+    margin-left: 1.19em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+
+
+
+
+.travel--title{
+    margin-top: 0.25em;
+    margin-bottom: 0.44em;
+    color: #2B283A;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.travel--text{
+    margin-top: 0.60em;
+    color: #2B283A;
+    font-size: 0.64rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 0.96rem */
+}
+
+
+@media (max-width: 600px) {
+  .nav--title {
+    font-size: 1.2rem;
+  }
+}
+
+/* Reset and Global Styles */
+
+
+/* Navbar Styles */
+
+
+/* Other Styles */
+
+/* Media Queries */
+
+
+
+@media (min-width: 768px) {
+    .travel--section {
+        flex-direction: column;
+    }
+
+    .travel--img--container {
+        width: 100%;
+        height: auto;
+    }
+
+    .travel--info {
+        margin-top: 1em;
+
+    }
+    
+     .nav--title {
+        font-size: 2.25rem;
+    }
+    
+    .country{
+        font-size: 1.75rem;
+    }
+
+    .travel--title {
+        font-size: 2.25rem;
+    }
+
+    .travel--text {
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 600px) {
+    .nav--title {
+        font-size: 1.25rem;
+    }
+    
+    .travel--info{
+        font-size: 1.55rem;
+    }
+    
+    .country{
+        font-size: 1.25rem;
+    }
+    
+    .navigator{
+        font-size: 1.15rem;
+    }
+
+    .travel--title {
+        font-size: 2.25rem;
+    }
+    
+    .travel--duration{
+        font-size: 1rem;
+    }
+
+    .travel--text {
+        font-size: 1rem;
+    }
+    
+     
+
+}
